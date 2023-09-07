@@ -1,0 +1,59 @@
+<body>
+    <!-- Main area-->
+    <div id = "main">
+    <table >
+     
+       <!-- User input area-->
+       
+      <div id = "userinput">
+        <tr>
+          <td>
+        <table>
+ 
+   <tr>
+    <span>
+      <td > <h2> No of Teams: </h2> </td>
+   <td><button id = "decrement-team-btn" onclick="decrementTeam()"> - </button></td>
+    <td ><h2 id="counter-team">1</h2></h2></td>
+    
+    <td><button id="increment-team-btn" onclick="incrementTeam()"> + </button></td>
+    </tr>
+
+
+    </span>
+   <td > <h2> Add Players: </h2> </td>
+    <td><form id ="addPlayerForm"> 
+      <input type ="text" id = "addplayername" placeholder="Enter player name" minlength="2" maxlength="15"> 
+      <input type = "submit" label = "addPlayer" id = "submitplayername" value="Add Player">
+    </form></td>
+    </tr>
+    <tr> <td> <h2>Players</h2></td></tr>
+    <td> 
+      <div id = "playerlist">
+      <!-- <form>
+      <input type ="text" id="text" value="Player1" readonly>
+    </form> -->
+    </div>
+  </td>
+    </table>
+    <td><div id = "calculate"> 
+      <button id ="assign" onclick="assignTeams()">Assign</button>
+      <button id ="Print" onclick="Print()">Print</button>
+      </div></td>
+  </td>
+  <td colspan ="8"> 
+    <section id = "result">
+      <div id = "resultteams">
+
+      </div>
+      
+    </section>
+</tr>
+    </div>
+    <div id="root"></div>
+    </div>
+    </table >
+    </div>
+    <script src = "index.js">
+    </script>
+  </body>
