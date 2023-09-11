@@ -86,7 +86,7 @@ window.addEventListener('load',() => {
 
     function decrementTeam(){
        
-        if(teamCount>1)
+        if(teamCount>2)
         {
             teamCount-=1
             generateTeam.innerText=teamCount
