@@ -1,149 +1,148 @@
 :root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-  
-    color-scheme: light dark;
-    color: rgba(255, 255, 255, 0.87);
-    background-color: #f9f8f8;
-  
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-  }
-  .leftside, .rightside{
-    height:100vh;
-    width:100%;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
 
-  }
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #f9f8f8;
 
-  .leftside{
-    background:red;
-  }
-  .rightside{
-    background:blue;
-  }
-
-  /* Image logo */
-.imagelogo {
-  top: 0px; 
-  left: 0px; 
-  width: 100%; 
-  height: 100px; 
-  border-radius: 4px; /* border-m */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
+.leftside, .rightside{
+  height:100vh;
+  width:100%;
+
+}
+
+.leftside{
+  background:red;
+}
+.rightside{
+  background:blue;
+}
+
+/* Image logo */
+.imagelogo {
+top: 0px; 
+left: 0px; 
+width: 100%; 
+height: 100px; 
+border-radius: 4px; /* border-m */
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+
+.greeting
+{
   
-  a {
-    font-weight: 500;
-    color: #646cff;
-    text-decoration: inherit;
+    position: absolute; 
+    top: 261px; 
+    left: 376px; 
+    width: 688px; 
+    font-family: Aldrich; 
+    font-size: 24px; 
+    line-height: 36px; 
+    color: #171A1FFF; /* neutral-900 */
+  
+  
+}
+.gamelogo
+{
+  position:center
+
+
+}
+
+.tb { border-collapse: collapse; }
+  .tb th, .tb td { padding: 5px; border: solid 1px #777; color: black;border-collapse: collapse;background-color: white; }
+.tb th { background-color: red; color: white; text-size-adjust:inherit;}
+
+.headText{
+
+}
+
+.addplayerbutton{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 0.5em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #f9f8f8;
+  background-color: #3d536e;
+  cursor: pointer;
+  transition: border-color 0.25s;
+
+}
+.addplayerbutton:hover{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: small;
+  font-weight: 500;
+  font-family: inherit;
+  color: #f9f8f8;
+  background-color: #3d536e;
+  cursor: pointer;
+  transition: border-color 0.25s;
+
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size:small;
+  font-weight: 500;
+  font-family: inherit;
+  color: #f9f8f8;
+  background-color: #3d536e;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.center{
+  margin-left :auto;
+  margin-right : auto;
+
+}
+table{
+  width: 30%;
+  
+}
+.assignedteams
+{
+  border: 1px solid;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
   }
   a:hover {
-    color: #535bf2;
+    color: #747bff;
   }
   
-  
-  .greeting
-  {
-    
-      position: absolute; 
-      top: 261px; 
-      left: 376px; 
-      width: 688px; 
-      font-family: Aldrich; 
-      font-size: 24px; 
-      line-height: 36px; 
-      color: #171A1FFF; /* neutral-900 */
-    
-    
-  }
-  .gamelogo
-  {
-    position:center
-
-
-  }
-
-  .tb { border-collapse: collapse; }
-  .tb th, .tb td { padding: 5px; border: solid 1px #777; }
-  .tb th { background-color: lightblue; }
-
-  .headText{
-
-  }
-
-  .addplayerbutton{
-    border-radius: 8px;
-    border: 1px solid transparent;
-    padding: 0.6em 1.2em;
-    font-size: 0.5em;
-    font-weight: 500;
-    font-family: inherit;
-    color: #f9f8f8;
-    background-color: #3d536e;
-    cursor: pointer;
-    transition: border-color 0.25s;
-
-  }
-  .addplayerbutton:hover{
-    border-radius: 8px;
-    border: 1px solid transparent;
-    padding: 0.6em 1.2em;
-    font-size: small;
-    font-weight: 500;
-    font-family: inherit;
-    color: #f9f8f8;
-    background-color: #3d536e;
-    cursor: pointer;
-    transition: border-color 0.25s;
-
-  }
-  
-  button {
-    border-radius: 8px;
-    border: 1px solid transparent;
-    padding: 0.6em 1.2em;
-    font-size:small;
-    font-weight: 500;
-    font-family: inherit;
-    color: #f9f8f8;
-    background-color: #3d536e;
-    cursor: pointer;
-    transition: border-color 0.25s;
-  }
-  button:hover {
-    border-color: #646cff;
-  }
-  button:focus,
-  button:focus-visible {
-    outline: 4px auto -webkit-focus-ring-color;
-  }
-  
-  .center{
-    margin-left :auto;
-    margin-right : auto;
-
-  }
-  table{
-    width: 30%;
-    
-  }
-  .assignedteams
-  {
-    border: 1px solid;
-  }
-  
-
-  @media (prefers-color-scheme: light) {
-    :root {
-      color: #213547;
-      background-color: #ffffff;
-    }
-    a:hover {
-      color: #747bff;
-    }
-    
-  }
-  
+}
