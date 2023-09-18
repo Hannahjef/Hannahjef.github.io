@@ -70,9 +70,7 @@ a:hover {
   .tb th, .tb td { padding: 5px; border: solid 1px #777; color: black;border-collapse: collapse;background-color: white; }
 .tb th { background-color: red; color: white; text-size-adjust:inherit;}
 
-.headText{
 
-}
 
 .addplayerbutton{
   border-radius: 8px;
