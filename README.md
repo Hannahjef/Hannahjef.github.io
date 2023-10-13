@@ -1,7 +1,7 @@
 
 # Squad Shuffler
 
-Squad Shuffler is an application designed to shuffle players into teams. The initial phase of this project was developed to cater to a specific gaming scenario where each team can have a maximum of 12 players, with each team containing a maximum of 3 players. The application ensures an equal distribution of players among the teams. This application can be used for Game 'SEQUENCE'
+Squad Shuffler is an application designed to shuffle players into teams. I created the game for my friends to make our game night more fun. The initial phase of this project was developed to cater to a specific gaming scenario 'SEQUENCE' where there can be a maximum of 12 players, with each team containing a maximum of 3 players. The application ensures an equal distribution of players among the teams. I used the algorithm Fisher-Yates on top of hashing algorithm to ensure shuffling. 
 
 ## Technologies Used
 
